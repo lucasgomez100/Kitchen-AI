@@ -1,0 +1,6 @@
+{
+  "id": "test",
+  "title": "Test Recipe",
+  "ingredients": ["1 cup flour", "2 eggs"],
+  "steps": ["Mix ingredients.", "Bake at 350°F for 20 min."]
+}
