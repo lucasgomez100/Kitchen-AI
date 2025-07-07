@@ -1,0 +1,8 @@
+{
+  "name": "Kitchen-AI",
+  "build": { "dockerfile": "Dockerfile" },
+  "workspaceFolder": "/workspace",
+  "extensions": ["ms-python.python","ms-vscode-remote.remote-containers"],
+  "postCreateCommand": "python3 -m venv .venv && source .venv/bin/activate && pip install --no-cache-dir -r requirements.txt",
+  "forwardPorts": [5000]
+}
